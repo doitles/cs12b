@@ -37,7 +37,7 @@ class BusinessSearch {
       Record[] listRight = new Record[list.length-a.length / 2];
       
       //fills left sides
-      for (int i = 0; i < left.length; i++){
+      for (int i = 0; i < left.length; i++){ 
         left[i] = a[i];
         listLeft[i]= list[i];
       }
